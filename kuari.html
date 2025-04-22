@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chopta Chandrashila Trek | PeakExplores</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Local Enhancements for Chopta Page */
+        .trek-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            background-color: #e8f5e9;
+            padding: 30px 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .highlight-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            flex: 1 1 200px;
+            max-width: 250px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+            .highlight-box h3 {
+                color: #2e7d32;
+                margin-bottom: 5px;
+            }
+
+            .highlight-box p {
+                margin: 0;
+                color: #555;
+            }
+
+        .scenic-quote {
+            background: url('images/chopta-hero.jpg') no-repeat center center/cover;
+            padding: 80px 20px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+            margin: 40px 0;
+        }
+
+        .itinerary-list li {
+            margin-bottom: 12px;
+            padding-left: 1.2em;
+            position: relative;
+        }
+
+            .itinerary-list li::before {
+                content: '🗓️';
+                position: absolute;
+                left: 0;
+            }
+
+        @media screen and (max-width: 768px) {
+            .trek-highlights {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="packages.html">Explore Treks</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="banner">
+        <img src="chopta.jpg" alt="Chopta Chandrashila Trek" class="banner-image">
+        <div class="banner-overlay"></div>
+        <div class="banner-text">
+            <h1>Chopta Chandrashila Trek</h1>
+            <p>The Mini Switzerland of India</p>
+        </div>
+    </section>
+
+    <!-- Quick Highlights -->
+    <section class="container trek-highlights">
+        <div class="highlight-box">
+            <h3>🕒 Duration</h3>
+            <p>5 Days / 4 Nights</p>
+        </div>
+        <div class="highlight-box">
+            <h3>🧭 Difficulty</h3>
+            <p>Easy to Moderate</p>
+        </div>
+        <div class="highlight-box">
+            <h3>📍 Altitude</h3>
+            <p>13,000 ft</p>
+        </div>
+        <div class="highlight-box">
+            <h3>💰 Price</h3>
+            <p>₹8,500/person</p>
+        </div>
+    </section>
+
+    <!-- Scenic Quote -->
+    <section class="scenic-quote">
+        “Wander where the Wi-Fi is weak and the view is strong.”
+    </section>
+
+    <!-- Description -->
+    <section class="container">
+        <div class="trek-card">
+            <h2>About the Trek</h2>
+            <p>
+                Chopta Chandrashila trek offers breathtaking views of Himalayan peaks like Nanda Devi, Trishul, and Chaukhamba.
+                The trail passes through forests of oak, deodar, and rhododendron, culminating in a panoramic summit that stirs the soul.
+                Tungnath, the highest Shiva temple, makes this trail not just scenic, but spiritual.
+            </p>
+        </div>
+    </section>
+
+    <!-- Itinerary -->
+    <section class="container">
+        <div class="trek-card">
+            <h2>Itinerary Snapshot</h2>
+            <ul class="itinerary-list">
+                <li><strong>Day 1:</strong> Arrive at Sari Village and overnight stay</li>
+                <li><strong>Day 2:</strong> Trek to Deoria Tal with lakeside camping</li>
+                <li><strong>Day 3:</strong> Hike through dense forest to reach Chopta</li>
+                <li><strong>Day 4:</strong> Summit Tungnath and Chandrashila Peak</li>
+                <li><strong>Day 5:</strong> Departure after breakfast</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Booking CTA -->
+    <section class="container" style="text-align: center;">
+        <a href="contact.html" class="cta-button">Book This Trek</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 PeakExplores. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

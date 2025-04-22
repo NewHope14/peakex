@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - PeakExplores</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Banner -->
+    <section class="banner">
+        <!--<img src="images/contact-banner.jpg" alt="Contact Us" class="banner-image" />-->
+        <img src="banner.jpg" alt="Contact Us" class="banner-image" />
+        <div class="banner-overlay"></div>
+        <div class="banner-text">
+            <img src="logo.png" alt="PeakExplores Logo" class="logo">
+            <h1>Contact PeakExplores</h1>
+            <p>We're here to help you plan your next adventure</p>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="destinations.html">Explore Adventure</a>
+        <a href="packages.html">Packages</a>
+        <!--<a href="contact.html">Contact</a>-->
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="container">
+        <div class="section-divider">
+            <h2>Get in Touch</h2>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <form class="contact-form" action="mailto:contact@peakexplores.com" method="post" enctype="text/plain">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> contact@peakexplores.com</p>
+                <p><strong>Phone:</strong> +91-9876543210</p>
+                <p><strong>Location:</strong> Delhi, India</p>
+
+                <div class="social-links">
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 PeakExplores. All rights reserved.</p>
+        <p>
+            <a href="mailto:info@peakexplores.com">info@peakexplores.com</a> |
+            Follow us on
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a>
+        </p>
+    </footer>
+
+</body>
+</html>
